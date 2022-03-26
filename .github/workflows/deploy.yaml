@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 's3/**'
+      - 's/**'
   pull_request:
     branches: [ main ]
     paths:
-      - 's3/**'
+      - 's/**'
 defaults:
   run:
     shell: bash
